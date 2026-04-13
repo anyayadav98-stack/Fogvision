@@ -1,0 +1,57 @@
+# 🌫️ FOGVISION — AI-Based Fog Detection & Accident Risk Prediction
+
+## 🔗 Live Demo
+👉 [Click here to open FOGVISION App](LINK_BAAD_MEIN_DALENGE)
+
+---
+
+## 📌 What is this project?
+FOGVISION is an AI-powered road safety web app that:
+- Detects **fog density** from road images using Deep Learning
+- Predicts **accident risk** based on speed, weather & road conditions
+- Gives **HIGH / MEDIUM / LOW risk** alert to the driver
+
+---
+
+## 🚀 Features
+| Feature | Description |
+|--------|-------------|
+| 🌫️ Fog Detection | CNN model detects Dense/Medium/No Fog from road image |
+| 🚗 Accident Risk | ML model predicts Fatal/Serious/Slight severity |
+| 📊 Risk Dashboard | Combined AI risk score with all driving inputs |
+| 🆘 Emergency Links | SOS, Hospital, Roadside Assist, Safe Stay |
+| 💡 Safety Tips | Fog driving protocol guide |
+
+---
+
+## 🧠 AI Models
+
+### Fog Detection Model
+- Type: CNN (Convolutional Neural Network)
+- Framework: TensorFlow / Keras
+- Input: 128x128 road image (6-channel: RGB + Grayscale + Edges + Blur)
+- Classes: Dense Fog, Medium Fog, No Fog
+- Accuracy: 86.67%
+
+### Accident Severity Model
+- Type: Gradient Boosting Classifier
+- Framework: Scikit-learn + SMOTE balancing
+- Features: Speed, Weather, Road Surface, Light Conditions
+- Classes: Fatal, Serious, Slight
+- Dataset: UK Road Accident Dataset (100,000 records)
+
+---
+
+## ⚙️ Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Streamlit |
+| Fog Model | TensorFlow / Keras |
+| Accident Model | Scikit-learn |
+| Image Processing | OpenCV |
+| Class Balancing | SMOTE |
+| Language | Python 3.12 |
+
+---
+
+## 🗂️ Project Structure
