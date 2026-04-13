@@ -137,5 +137,4 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Developer
-**Anya Yadav** — AI Final Year Project
+
